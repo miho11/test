@@ -1,6 +1,6 @@
 language: generic
 install:
- - ./.travis/install.sh
+ - ./install.sh
 script:
  - bash -e ./travis-test.bash
 
